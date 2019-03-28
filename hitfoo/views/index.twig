@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HITFOOD</title>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device_width, initiale-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	 <nav class="navbar navbar-inverse navbar-fixed-top navbar-principale" ">
+
+                        <div class="container" >
+
+                              <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#monMenu">
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                    </button>
+                                    <h1><a  class="navbar-brand" id="titre" style="">HITFOOD</a></h1>
+                              </div>
+
+                              <div class="collapse navbar-collapse  navbar-right" id="monMenu">
+                                    <ul class="nav navbar-nav ">
+                                          <li class="menu_items" ><a href="#accueil">ACCUEIL</a></li>
+                                          <li class="menu_items"><a href="#about">ABOUT</a></li>
+                                          <li class="menu_items"><a href="#menuprinc">MENU</a></li>
+                                          <li class="menu_items"><a href="#contacts">CONTACTS</a></li>
+                                          <li class="menu_items"><a  href="/connexion"  ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                                          <li><p><a href="/inscription"  class="btn btn-outline-white btn-lg site-animate button1" >INSCRIPTION</a></p></li>
+                                    </ul>
+                                   
+                              </div>
+                    </div>
+    </nav>
+    
+
+
+
+   
+     <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-">
+           <div id="monCarousel" class="carousel slide" data-ride="carousel" >
+<ol class="carousel-indicators">
+            <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#monCarousel" data-slide-to="1"></li>
+                      <li data-target="#monCarousel" data-slide-to="2"></li>
+                      <li data-target="#monCarousel" data-slide-to="3"></li>
+          </ol>
+          
+
+          <div class="carousel-inner carousel1" role="listbox">
+
+            
+            <div class="item active">
+              <img src="images/bg5.jpg" style="height:600px; width:100%">
+              <div   class="carousel-caption">
+                <h3>bienvenue chez hitfood</h3>
+              </div>
+            </div>
+            <div class="item" >
+              <img src="images/bg6.jpg" style="height:600px; width:100%;">
+              <div class="carousel-caption">
+                <h3>le restaurant <br> des aliments <br>et  ingredients frais</h3>
+            
+              </div>
+            </div>
+            <div class="item" >
+              <img src="images/bg3.jpg" style="height:600px;width:100%;">
+              <div class="carousel-caption">
+                <h3>mangez comme<br> si vous etiez à la maison</h3>
+              </div>
+            </div>
+           
+           
+          </div>
+
+          <a href="#monCarousel" class="left carousel-control" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a href="#monCarousel" class="right carousel-control" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+    </div>
+
+        </div>
+      </div>
+   </div>
+      
+<li><p><a href="/reservation"  class="btn btn-outline-white btn-lg site-animate button2" style=" background: transparent;  color:white ;  border-radius: 0px;
+  height: 40px;border: 1px solid rgb(255,215,0);margin-top: 20px;padding:8px 10px 20px 10px; position: fixed;position: fixed; margin: 3em 0em 0;left: 5%;top: 20%;z-index: 999;cursor: pointer;width: 130px; height: 40px;background: rgb(255,215,0);
+}  "  >RESERVER</a></p>
+       
+     
+    <!--DEBUT MENU -->
+
+    <div id="menuprinc"  style=""></div>
+    <div class="container" >
+
+      <h1 class="menud" style="">Menu Delicieux</h1>
+         <nav class="navmenu" >
+        <ul class="nav nav-pills" >
+          
+          <li role="presentation" class="active" > <a href="#1" data-toggle="tab">breakfast</a></li>
+          <li role="presentation" > <a href="#2" data-toggle="tab">dejeuner</a></li>
+          <li role="presentation" > <a href="#3" data-toggle="tab">dinner</a></li>
+         
+          
+        </ul>
+          
+      </nav>
+      <div class="tab-content">
+        <div class="tab-pane active" id="1">
+          
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                <img class="imgdim" src="images/dej1.jpg" alt="..." style="height: 225px;">
+                
+                <div class="caption">
+                  <h4> la spéciale : 12000fr</h4>
+                  <p>fruit de aux choix , fruit de mer et d'ocean  </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/dej2.jpg" alt="..." >
+               
+                <div class="caption">
+                  <h4>yaourt fruité à la vanille : 3500fr</h4>
+                  <p>yaourt , fruit(fruit au choix), vanille  </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim" src="images/dej3.jpg" alt="..." style="height: 225px;">
+                
+                <div class="caption">
+                  <h4>croissant gelé : 2500fr</h4>
+                  <p>deux tranches de croissant bien croustillant</p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/dej4.jpg" alt="...">
+                
+                <div class="caption">
+                  <h4>la total : 10000fr</h4>
+                  <p>salade de fruits, yogourt, pain grillé, croissant, jus </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/s5.jpg" alt="...">
+                
+                <div class="caption">
+                  <h4>citron : 15000fr</h4>
+                  <p>deux grosse tranche de citron bien citroné </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/s1.jpg" alt="...">
+                
+                <div class="caption">
+                  <h4>spaghetti blanc : 6000fr</h4>
+                    
+                  <p>spaghetti blanc + sauce spéciale maison </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+                </div>
+
+                <div class="tab-pane " id="2">
+          
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/5.jpg" alt="...">
+                
+                <div class="caption">
+                  <h4> classic</h4>
+                  <p>Sandwich: Burger, Salade, Tomate, Cornichon</p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/g1.jpg" alt="...">
+                
+                <div class="caption">
+                  <h4> pizza: 6000fr</h4>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img  class="imgdim"  style="height: 225px;" src="images/g2.jpg" alt="...">
+                
+                <div class="caption">
+                  <h4>frite  poulet:5000fr</h4>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/midi3.jpg" alt="...">
+                
+                <div class="caption">
+                  <h4>hit dejeuné</h4>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/midi4.jpg" alt="...">
+              
+                <div class="caption">
+                  <h4> nuggets:3000fr</h4>
+                  <p>poulet grillé à point  </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/midi5.jpg" alt="...">
+               
+                <div class="caption">
+                  <h4> entrecote de boeuf : 8000fr</h4>
+                    
+                  <p>Sandwich: Double Burger, Fromage, Bacon, Salade, </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+                </div>
+                <div class="tab-pane " id="3">
+          
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                <img class="imgdim" src="images/menu_1.jpg" alt="..." style="height: 225px;">
+                
+                <div class="caption">
+                  <h4>Poulet Frit Salé : 15000fr</h4>
+                  <p> poulet grillé, salade, frite </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim" src="images/menu_2.jpg" alt="..." style="height: 225px;">
+                
+                <div class="caption">
+                  <h4>poisson frit salé : 15000fr</h4>
+                  <p>poisson grillé, salade et frite </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim" src="images/menu_3.jpg" alt="..." style="height: 225px;">
+              
+                <div class="caption">
+                  <h4>poulet soupe : 10000fr</h4>
+                  <p>poulet cuir à point + soupe  </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/g3.jpg" alt="...">
+                 
+                <div class="caption">
+                  <h4>poulet à l'ivoirienne : 8000fr</h4>
+                  <p> poulet braisé , piqué </p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img class="imgdim"  style="height: 225px;" src="images/g6.jpg" alt="...">
+                 
+                <div class="caption">
+                  <h4>Ailes de Poulet</h4>
+                  <p>Ailes de poulet Barbecue</p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+             </div>
+             <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img class=" img-circle imgdim"  style="height: 225px;" src="images/g8.jpg" alt="...">
+                 
+                <div class="caption">
+                  <h4>Ailes de Poulet</h4>
+                  <p>Ailes de poulet Barbecue</p>
+                  <a href="/connexion" class="btn btn-order" role="button"><span class="glyphicon glyphicon-shopping-cart">Commander</span></a>
+                </div>
+              </div>
+             </div>
+            
+          </div>
+         </div>
+        </div>
+
+         <!-- FIN section -->
+    
+    <section class="site-section" id="section-about" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 site-animate mb-5">
+            
+            <h2 class="site-primary-title display4" id="about" style=" ;">Welcome</h2>
+            <div class="presentation" style=""><p style="margin-bottom: 20px"> Chez HIT FOOD, il n’y a d’autre ambition que celle de proposer une cuisine sincère, ancrée dans les saisons, authentique mais moderne, joyeuse et généreuse. Arrosée de bons vins, nous la voulons au choix dégustée, avalée, dévorée, engloutie (c’est vous qui voyez) dans une ambiance décontractée, simple et bon enfant</p>
+            <p> Que vous ayez trente minutes ou deux heures, peu importe. Franchissez la porte du restaurant et nous mettons tout en œuvre pour que ces trente minutes ou ces deux heures vous donnent envie de revenir. Le jeune restaurateur que je suis ne voit pas de plus belle récompense au travail sincèrement fait ! »</p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-6 site-animate img" data-animate-effect="fadeInRight">
+            <img src="images/chef2.jpg"  class="img-fluid" >
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+   
+    </section>
+    <!-- FIN section -->
+     <!-- FOOTER -->
+    <div class="footer" id="contacts">
+  <div class="container">
+    <div class="agile-footer-grids">
+      <div class="col-md-3 col-sm-6 col-xs-6 ha-soum-footer-grid">
+        <div class="logo-2">
+          <h2><a href="index.html">HITFOOD</a></h2>
+        </div>
+        <ul>
+          
+          <li>mars 2019,</li>
+          
+          <li>Email</li>
+          <li><a href="mailto:info@example.com">hamedsoum4023@gmail.com</a></li>
+          <li>Phone Number</li>
+          <li>+225 87 00 83 15</li>
+        </ul>       
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 ha-soum-footer-grid">
+        <h3>HORAIRES</h3>
+        <div class="col-md-5 col-sm-5 col-xs-5 agile-opening">
+          <ul>
+            <li>Lundi </li>
+            <li>Mardi </li>
+            <li>Mercredi </li>
+            <li>Jeudi </li>
+            <li>Vendredi </li>
+            <li>Samedi </li>
+            <li>Dimanche </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6 agile-opening">
+          <ul>
+            <li>8h-24h</li>
+            <li>8h-24h</li>
+            <li>8h-24h</li>
+            <li>8h-24h</li>
+            <li>8h-24h</li>
+            <li>8h-24h</li>
+            <li>8h-24h</li>
+          </ul>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <div class="col-md-6 w3-agile-footer-grid grid-w3-1">
+        <div class="contact-block-left">
+          <form action="#" method="post">
+            <input type="text" placeholder="Name" name="Name" required="">
+            <input type="email" class="email" placeholder="Email" name="Email" required="">             
+            <textarea placeholder="Message" name="message" required=""></textarea>
+            <input type="submit" value="envoyer">
+          </form>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright">
+    <p>© © HITFOOD tous droits reservé | Design by SOUMAGORO MAMADOU HAMED</a> </p>
+  </div>
+  <!-- //copyright -->
+</div>
+<!-- // FIN footer -->
+   
+      
+            
+        
+
+
+ <!-- <section class="site-cover" style="background-image: url(images/bg3.jpg);" id="section-home">
+    	<div class="container">
+    		<div class="row justify-content-center text-center">
+    			<div class="col-md-12"></div>
+    			
+    		</div>
+    	</div>
+    </section>-->
+</body>
+</html>
