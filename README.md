@@ -1,6 +1,6 @@
 # projetjavascript de reservation pour un restaurant
 
-techno utilisé
-ejs templating pour le front 
-Nodejs pour le back et 
-Mysql pour la BD
+>h3>techno utilisé<h/3>
+<p>ejs templating pour le front</p>
+<p>Nodejs pour le backEnd</p> 
+<p>Mysql pour la BD</p>
